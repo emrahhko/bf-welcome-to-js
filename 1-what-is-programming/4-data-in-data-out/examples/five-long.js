@@ -18,7 +18,7 @@
 */
 
 /* --- prompt until the input is long enough --- */
-
+debugger;
 let input = null;
 while (true) {
   /* --- gather user input --- */
