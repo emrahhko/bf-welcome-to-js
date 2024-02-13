@@ -40,3 +40,26 @@ console.log(message);
 /* --- display the message --- */
 
 alert(message);
+
+// My code (it's a copy paste of yours)
+
+let reponse = null;
+while (reponse === null) {
+  reponse = prompt(
+    'enter something. \n\n if it has 7 characters it will be reversed',
+  );
+  console.log(reponse);
+}
+
+let mess = '';
+if (reponse.length === 7) {
+  for (let character of reponse) {
+    mess = character + mess;
+    console.log(mess);
+  }
+} else {
+  mess = reponse;
+  console.log(mess);
+}
+
+alert(mess);

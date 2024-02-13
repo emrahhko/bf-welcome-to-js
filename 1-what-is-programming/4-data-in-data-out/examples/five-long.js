@@ -43,3 +43,25 @@ console.log(message);
 /* --- display the message to the user --- */
 
 alert(message);
+
+// My code
+
+let month = null;
+while (true) {
+  month = prompt('enter the longest month name in english', 'ex. july');
+  month = month.toLowerCase();
+  console.log(month);
+
+  if (month !== null && month === 'september') {
+    break;
+  } else {
+    alert('no, try again');
+  }
+}
+let x =
+  "Yes that's it!! " +
+  month +
+  ' is the longest month name in english with 9 caracters';
+console.log(x);
+
+alert(x);

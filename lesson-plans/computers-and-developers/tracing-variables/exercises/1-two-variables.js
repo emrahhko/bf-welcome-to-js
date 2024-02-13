@@ -10,6 +10,7 @@
 */
 
 // trace the program a few times with different values
+debugger;
 
 let x = 'Pieter';
 // let x = 'Blake';
@@ -22,3 +23,17 @@ console.log(y);
 y = 'good bye ' + x;
 
 console.log(y);
+
+// My code
+
+let day = 'Monday';
+// let day = "thursday";
+// let day = "wednesday";
+
+let today = 'Hello today is ' + day + '!';
+
+console.log(today);
+
+let nextWeek = 'In 7 days it will be ' + day + ' again !';
+
+console.log(nextWeek);

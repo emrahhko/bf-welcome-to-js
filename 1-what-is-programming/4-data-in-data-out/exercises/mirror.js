@@ -14,6 +14,7 @@
 */
 
 /* --- gather user input --- */
+debugger;
 
 let input = null;
 while (input === null) {
@@ -32,3 +33,19 @@ for (let character of input) {
 /* --- display mirrored text to the user --- */
 
 alert(mirrored);
+
+// My code
+
+let reponse = null;
+while (reponse === null) {
+  reponse = prompt('enter some text to mirror');
+  console.log(reponse);
+}
+
+let miroir = ' | ';
+for (let character of reponse) {
+  miroir = character + miroir + character;
+  console.log(miroir);
+}
+
+alert(miroir);
