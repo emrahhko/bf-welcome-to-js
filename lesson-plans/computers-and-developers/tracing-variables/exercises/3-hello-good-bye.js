@@ -6,6 +6,8 @@
 
 */
 
+debugger;
+
 let first = 'Pieter';
 let last = 'Rabbit';
 
@@ -18,3 +20,13 @@ let greeting = 'hello ' + fullName;
 greeting = 'good bye ' + fullName;
 
 console.log(greeting);
+
+// My code
+
+let day = 'Monday';
+
+let weather = "and it's cold";
+
+let x = 'Today is ' + day + ' ' + weather + '!';
+
+console.log(x);
