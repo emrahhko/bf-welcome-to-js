@@ -12,7 +12,7 @@
 
 
 */
-
+debugger;
 /* --- gather user input --- */
 
 let input = null;
@@ -37,3 +37,22 @@ console.log(message);
 /* --- display message to the user --- */
 
 alert(message);
+
+// My code
+
+let reponse = null;
+while (reponse === null) {
+  reponse = prompt('enter some text to reverse');
+  console.log(reponse);
+}
+
+let reverse = '';
+for (let char of reponse) {
+  reverse = char + reverse;
+  console.log(reverse);
+}
+
+let msg = reponse + ' -> ' + reverse;
+console.log(msg);
+
+alert(msg);
