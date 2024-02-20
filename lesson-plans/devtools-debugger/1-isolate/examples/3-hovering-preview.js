@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* 🥚 Hovering Previews
 
   practice previewing expressions at different steps of execution
@@ -29,3 +31,12 @@ if (didClickOk !== true) {
 }
 
 alert(message);
+
+/* at the beginning the scope panel show the two variables didClickOk and message
+as "value unavailable" and depending on the user input the first variable
+didClickOk get the value true or false and wee see the result of that when we hover over 
+the expression.
+and according to that the second variable message get the the value ":(" 
+in case of false and get the value "thank you!" in case of true 
+and wee see the result of that when we hover over the expression.
+ */

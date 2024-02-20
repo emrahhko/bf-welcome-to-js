@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*  Stepping Through
 
   click the [debug] button to start the program in your debugger
@@ -15,8 +17,15 @@
 
 let didClickOk = confirm('please click "ok":');
 
+// this line display popup that ask to user  click on "ok".
+// the result is stored on the variable "didClickok"
+
+// if else statement to check the result of "didClikOk"
+
 if (didClickOk !== true) {
   alert(':(');
+  // if the user didn't ok this part (if) of the code block is executed
 } else {
   alert('thank you!');
 }
+// if the user did click ok this (else) part of the code block is executed.

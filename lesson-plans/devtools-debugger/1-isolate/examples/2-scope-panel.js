@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*  Scope Panel
 
   go through this program one step at a time and watch the Scopes panel
@@ -8,7 +10,7 @@
 
   before pressing the "step" button:
   - predict which line will be next
-  - predict what will change in the Scopes panel -->
+  - predict what will change in the Scopes panel --> 
 
   after pressing the "step":
   - were you right about which line was next?
@@ -26,3 +28,10 @@ if (didClickOk !== true) {
 }
 
 alert(message);
+
+/* at the beginning the scope panel show the two variables didClickOk and message
+as "value unavailable" and depending on the user input the first variable
+didClickOk get the value true or false and according to that the second
+variable message get the the value ":(" in case of false 
+and get the value "thank you!" in case of true
+ */

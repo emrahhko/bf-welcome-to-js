@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* 🐣 Continue to Here
 
   click the [debug] button to study this program in the debugger
@@ -28,3 +30,5 @@ if (didClickOk !== true) {
 }
 
 alert(message);
+
+// allow me to execute the code at a point of my choice

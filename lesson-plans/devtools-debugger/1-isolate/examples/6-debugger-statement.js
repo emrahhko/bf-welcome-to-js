@@ -22,3 +22,5 @@ if (didClickOk !== true) {
 }
 
 alert(message);
+
+// the debbuger allow the program to pause
