@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* 🐣 Breakpoints
 
   use the [debug] button to pause this program in the devtools
@@ -25,3 +27,6 @@ if (didClickOk !== true) {
 }
 
 alert(message);
+
+/* a breakpoint is a point on the code were it will pause allowing to 
+inspect the state of the code */
