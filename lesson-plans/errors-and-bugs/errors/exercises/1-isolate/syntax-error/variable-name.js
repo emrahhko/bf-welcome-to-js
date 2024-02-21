@@ -1,10 +1,6 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
-
-
 
 /*
   environment:
@@ -21,7 +17,6 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
+const three3 = 'three';
 
-const 3 = 'three';
-
-
+console.log(three3);
