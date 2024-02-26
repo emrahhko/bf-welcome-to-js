@@ -19,11 +19,14 @@ let greeting = 'hello ' + first + ' ' + last;
 
 greeting = greeting + '!';
 
-console.log(greeting === 'hello angus croll!');
+console.log(greeting); //=== 'hello angus croll!'
 
 // begin distractors
 
-let greeting = 'hello' + first + last; // distractor
-greeting === greeting + '!'; // distractor
-let first = angus; // distractor
-let last = croll; // distractor
+// distractor
+let firstName = 'angus '; // distractor
+let lastName = 'croll'; // distractor
+let greeting1 = 'hello' + ' ' + first + ' ' + last;
+greeting1 = greeting1 + '!';
+
+console.log(greeting1);

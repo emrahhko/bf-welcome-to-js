@@ -1,12 +1,12 @@
 'use strict';
 
-__;
+let first = 'John ';
 console.log(first);
 
-__;
+let last = 'Doe ';
 console.log(last);
 
-__;
+let language = 'english';
 console.log(language);
 
-console.log(___);
+console.log(first + last + language);

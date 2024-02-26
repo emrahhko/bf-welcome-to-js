@@ -2,14 +2,21 @@
 
 let number = 0;
 
-__;
-__;
+let number1 = 6;
 
-__;
-__;
+console.log(number1 + number);
 
-__;
-__;
+let num = 2;
+let num1 = 3;
 
-__;
-__;
+console.log(num1 + num);
+
+let nums = 5;
+let nums1 = 8;
+
+console.log(nums1 + nums);
+
+let numb = 8;
+let numb1 = 2;
+
+console.log(numb + numb1);

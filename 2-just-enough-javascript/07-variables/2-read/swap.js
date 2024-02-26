@@ -30,3 +30,20 @@ console.log(temp === 'y'); // true
 
   done with these questions?  try "ask me" and "random line"
 */
+
+let m = 1;
+
+let n = 2;
+
+let l;
+
+l = m;
+
+m = n;
+
+n = l;
+
+console.log(m, n);
+
+console.log(m === 2);
+console.log(n === 1);

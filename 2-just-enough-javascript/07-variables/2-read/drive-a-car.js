@@ -18,3 +18,11 @@ console.log(phrase); // 'drive a car'
 
   done with these questions?  try "ask me" and "random line"
 */
+
+let phrase1 = 'apple';
+
+phrase1 = ' ' + phrase1 + ' ';
+
+phrase1 = 'i eat an' + phrase1;
+
+console.log(phrase1);

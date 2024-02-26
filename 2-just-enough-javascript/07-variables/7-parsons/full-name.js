@@ -9,17 +9,19 @@
   4. log the full name
 */
 
-let first = 'Padma';
+let firstName = 'Padma';
 
-let last = 'Patil';
+let lastName = 'Patil';
 
-let full = first + ' ' + last;
+let fullName = firstName + ' ' + lastName;
 
-console.log(full);
+console.log(fullName);
 
 // --- distractors ---
 
-Let first = 'Padma'; // distractor
-last = 'Patil'; // distractor
-let = last 'Patil'; // distractor
-let full first + ' ' + last; // distractor
+let firstName1 = 'Jane'; // distractor
+let lastName1 = 'Doe'; // distractor
+// let = last 'Patil'; // distractor
+let fullName1 = firstName1 + ' ' + lastName1; // distractor
+
+console.log(fullName1);

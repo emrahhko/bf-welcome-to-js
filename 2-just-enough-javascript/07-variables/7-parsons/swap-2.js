@@ -28,6 +28,14 @@ console.log(temp === 'x');
 
 /* -------------- */
 
-temp === b; // distractor
-b === a; // distractor
-a === temp; // distractor
+a = 'x';
+b = 'y';
+temp = 'x';
+
+temp = b;
+b = a;
+a = temp;
+
+console.log(temp === b); // distractor
+console.log(b === a); // distractor
+console.log(a === temp); // distractor

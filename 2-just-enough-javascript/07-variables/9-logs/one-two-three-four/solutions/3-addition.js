@@ -1,14 +1,16 @@
 'use strict';
 
 let number = 1;
+let number1 = 3;
 
-__;
+console.log(number + number1);
 
-__;
-__;
+let nums = 3;
+let nums1 = 5;
 
-__;
-__;
+console.log(nums + nums1);
 
-__;
-__;
+let numb = 5;
+let numb1 = 8;
+
+console.log(numb + numb1);
