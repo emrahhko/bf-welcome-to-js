@@ -2,14 +2,14 @@
 
 let favoriteLanguage;
 
-_;
+favoriteLanguage = 'english';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'french';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'spanish';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'dutch';
 console.log(favoriteLanguage);

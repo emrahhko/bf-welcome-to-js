@@ -17,3 +17,13 @@ console.log(greeting); // 'hello angus croll!'
 
   done with these questions?  try "ask me" and "random line"
 */
+
+let first1 = 'John';
+
+let last1 = 'Doe';
+
+let greeting1 = 'Goodbye ' + first1 + ' ' + last1;
+
+greeting1 = greeting1 + '!';
+
+console.log(greeting1);

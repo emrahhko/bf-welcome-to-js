@@ -26,3 +26,20 @@ console.log(frog); // 'frog'
   const
 
 */
+let isHuman = true;
+console.log(isHuman);
+
+let height1 = 61;
+console.log(height1);
+
+let horse = 'horse';
+console.log(horse);
+
+let isNice = false;
+console.log(isNice);
+
+let wide = 2;
+console.log(wide);
+
+let birds = birds;
+console.log(birds);

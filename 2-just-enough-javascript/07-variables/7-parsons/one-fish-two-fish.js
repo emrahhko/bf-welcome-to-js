@@ -32,6 +32,11 @@ console.log(phrase === 'one fish two fish');
 
 /* ----------- distractors -------------- */
 
-phrase = 'one' + phrase + ' fish'; // distractor
-phrase = 'one ' + phrase + 'fish'; // distractor
-phrase = phrase + 'fish'; // distractor
+let phrase1 = '';
+
+phrase1 = 'one' + phrase1 + ' fish' + phrase1; // distractor
+phrase1 = phrase1 + ' two'; // distractor
+phrase1 = phrase1 + ' fish'; // distractor
+
+console.log(phrase1);
+console.log(phrase1 === 'one fish two fish');

@@ -30,3 +30,5 @@ console.log(temp === 'y');
 
 a = 'x'; // distractor
 b = 'y'; // distractor
+console.log(a);
+console.log(b);

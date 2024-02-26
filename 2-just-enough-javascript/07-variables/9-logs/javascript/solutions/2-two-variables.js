@@ -1,11 +1,17 @@
 'use strict';
 
-__;
+let first;
+first = 'John ';
 console.log(first);
 
-__;
+let last;
+last = ' Doe';
 console.log(last);
 
-console.log(__ + __);
+console.log(first + last);
 
-console.log(__ + __ + _);
+let greeting;
+
+greeting = 'Welcome ';
+
+console.log(greeting + first + last);
