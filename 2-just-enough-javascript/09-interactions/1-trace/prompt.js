@@ -17,3 +17,17 @@ console.log(input3 === 'hello'); // true
 
 let input4 = prompt('4. enter your name');
 console.log(input4); // ?
+
+let input5 = prompt('this is a test');
+console.log(input5 === true);
+
+let input6 = prompt('this is a second test');
+console.log(input6 === false);
+
+let input7 = prompt("enter the word 'test'");
+console.log(input7 === 'test');
+
+let input8 = prompt('enter your last name');
+console.log(input8);
+
+alert('congrat the test is done!');
