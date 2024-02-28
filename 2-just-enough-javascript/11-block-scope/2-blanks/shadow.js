@@ -11,7 +11,7 @@ let greeting = 'hello';
 }
 
 console.log(greeting === 'hello'); // true
-
+console.log(greeting);
 /* distractors:
 
 
