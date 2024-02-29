@@ -12,3 +12,14 @@ if (didConfirm) {
 }
 
 alert(message);
+
+let didConfirm1 = confirm('You sure?');
+
+let message1;
+if (didConfirm1) {
+  message1 = 'goood';
+} else {
+  message1 = 'Noooo';
+}
+
+alert(message1);

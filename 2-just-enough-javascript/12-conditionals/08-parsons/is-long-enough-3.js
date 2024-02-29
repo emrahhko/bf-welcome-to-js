@@ -22,3 +22,15 @@ if (input === null) {
     alert('too short!');
   }
 }
+
+let input1 = prompt('something longer than 4 characters:');
+
+if (input1 === null) {
+  alert(':( :(');
+} else {
+  if (input1.length > 4) {
+    alert('perfect');
+  } else {
+    alert('too short!');
+  }
+}

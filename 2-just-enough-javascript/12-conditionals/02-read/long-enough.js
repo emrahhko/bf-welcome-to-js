@@ -19,6 +19,22 @@ if (input === null) {
 
 alert(message);
 
+let input1 = prompt('enter anything else longer than 5 characters');
+let message1;
+
+if (input1 === null) {
+  message1 = "you didn't :(";
+} else {
+  if (input1.length < 5) {
+    message1 = 'too short';
+  } else if (input1.length > 5) {
+    message1 = 'long enough';
+  } else {
+    message1 = 'exactly 5!';
+  }
+}
+
+alert(message1);
 /*
   - mark each variable use with a different color (like in the ?variables lens)
   - use lines to connect each variable declaration to it's uses

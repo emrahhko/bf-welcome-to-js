@@ -1,6 +1,5 @@
 'use strict';
 
-
 /* parsons-collapse: hint
   1. gather input
   2. alert a reaction
@@ -9,8 +8,6 @@
       2. correct
     b. they canceled
 */
-
-
 
 let input = prompt('something longer than 4 characters:');
 
@@ -24,12 +21,22 @@ if (input !== null) {
   alert(':(');
 }
 
+let input1 = prompt('something longer than 4 characters:');
+
+if (input1 !== null) {
+  if (input1.length <= 4) {
+    alert('too short!');
+  } else {
+    alert('perfect');
+  }
+} else {
+  alert(':( :(');
+}
+
 // -------------------
 
-
-input = prompt('something longer than 4 characters:'); // distractor
-} else if { //distractor
-if (input <= 4) { // distractor
-
+// input = prompt('something longer than 4 characters:'); // distractor
+// } else if { //distractor
+// if (input <= 4) { // distractor
 
 // #todo

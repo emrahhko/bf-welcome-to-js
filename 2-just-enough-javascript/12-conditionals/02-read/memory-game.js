@@ -37,3 +37,22 @@ alert('good bye');
 
   done with these questions?  try "ask me" and "random line"
 */
+let thingToRemember1 = prompt(
+  'enter some other text, then remember it \n' +
+    'if you remember it correctly you win',
+);
+
+if (thingToRemember1 !== null) {
+  let displayTheText1 = confirm('would you like to see your text again?');
+  if (displayTheText1) {
+    alert(thingToRemember1);
+  }
+  let guess1 = prompt('now try to remember what it was;');
+  if (guess1 !== null && guess1 === thingToRemember1) {
+    alert('you win!');
+  } else {
+    alert('try again.');
+  }
+}
+
+alert('goodBye');

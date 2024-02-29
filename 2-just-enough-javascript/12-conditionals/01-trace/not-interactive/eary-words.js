@@ -2,7 +2,8 @@
 
 'use strict';
 
-let word = '';
+let word = 'bear';
+let word1 = 'wine';
 // let word = 'a';
 // let word = 'be';
 // let word = 'eat';
@@ -26,3 +27,16 @@ if (word.length >= 3) {
 }
 
 console.log(message);
+
+let message1;
+if (word1.length >= 3) {
+  if (word1.includes('ine')) {
+    message1 = "that's a fINE word ;)";
+  } else {
+    message1 = "that's not fINE :( word";
+  }
+} else {
+  message1 = 'word is too short :(';
+}
+
+console.log(message1);
