@@ -30,3 +30,19 @@ alert(response);
 
   done with these questions?  try "ask me" and "random line"
 */
+
+let input1 = prompt('enter something else');
+
+let response1;
+if (input1 === null) {
+  response1 = ':(';
+} else {
+  let didConfirm1 = confirm('is this what you mean to input \n => ' + input1);
+  if (didConfirm1 === false) {
+    response1 = 'try again';
+  } else {
+    response1 = 'niceee!';
+  }
+}
+
+alert(response1);

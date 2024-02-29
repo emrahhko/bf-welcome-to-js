@@ -10,3 +10,14 @@ if (input === null) {
 }
 
 alert(message);
+
+let input1 = prompt('please do not cancel');
+
+let message1 = '';
+if (input === null) {
+  message1 = 'you canceled :(';
+} else {
+  message1 = 'thank you for your input: ' + input1;
+}
+
+alert(message1);

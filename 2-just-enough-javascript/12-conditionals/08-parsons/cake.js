@@ -23,9 +23,20 @@ if (likesCake === true) {
 
 alert(message);
 
+let likesCake1 = confirm('do you like cake?');
+
+let message1 = '';
+if (likesCake1 === true) {
+  message1 = 'me too :)';
+} else {
+  message1 = 'me neither :(';
+}
+
+alert(message1);
+
 // --- distractors ---
 
-} // distractor
-{ // distractor
-] else [ // distractor
-if likesCake === true: // distractor
+// } // distractor
+// { // distractor
+// ] else [ // distractor
+// if likesCake === true: // distractor

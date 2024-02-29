@@ -14,10 +14,24 @@
 
 /* ---   ?   --- */
 
-// input <- prompt('enter anything longer than 5 characters')
+debugger;
 
-// IF: input !== null
-//   IF: input.length < 5
+let input = prompt('enter anything longer than 5 characters');
+
+let message = 'you canceled';
+
+if (input !== null) {
+  if (input.length < 5) {
+    message = 'too short';
+  } else if (input.length > 5) {
+    message = 'long enough';
+  } else if (input.length === 5) {
+    message = 'exactly FIVE !!';
+  }
+}
+
+alert(message);
+
 /* ---   ?   --- */
 //     message <- 'too short'
 //   ELSE: IF: input.length > 5

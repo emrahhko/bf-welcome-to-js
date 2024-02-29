@@ -8,7 +8,7 @@
 
 */
 
-let weather = 'spring';
+let weather = 'summer';
 // let weather = "summer";
 // let weather = "winter";
 // let weather = "fall";
@@ -31,3 +31,26 @@ if (weather === 'spring') {
 console.log(clothingChoice);
 
 // Taken from: https://www.codecademy.com/courses/introduction-to-javascript/quizzes/learn-javascript-control-flow-control-flow-quiz
+
+let weather1 = 'holidays';
+// let weather1 = "summer";
+// let weather1 = "summer";
+// let weather1 = "summer";
+// let weather1 = "summer";
+let clothingChoice1 = '';
+
+if (weather1 === 'summer') {
+  clothingChoice1 = 'Make sure to take your sunscreen.';
+} else if (weather1 === 'winter') {
+  clothingChoice1 = 'Wear a heavy coat.';
+} else if (weather1 === 'spring') {
+  clothingChoice1 = 'put on rain boots.';
+} else if (weather1 === 'fall') {
+  clothingChoice1 = 'wear a light jacket.';
+} else if (weather1 === 'holidays') {
+  clothingChoice1 = 'merry christmas and happy new year';
+} else {
+  clothingChoice1 = 'invalid weather type.';
+}
+
+console.log(clothingChoice1);
