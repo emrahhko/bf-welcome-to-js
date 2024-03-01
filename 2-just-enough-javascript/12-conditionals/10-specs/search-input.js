@@ -35,24 +35,51 @@
 
 console.log('--- begin program ---');
 
+let ask = confirm(
+  'enter two words to check if the second word \n is included on the first',
+);
+
+// while (ask !== true) {
+//   ask;
+// }
+
+let text1 = prompt('enter something');
+let text2 = prompt('enter something else');
+let output;
+
+if (text1 === null || text2 === null) {
+  output = ' :(';
+} else if (text1 === '' && text2 === '') {
+  output = '" "  includes  " "';
+} else if (text1 === '') {
+  output = '"" does not includes "' + text2 + '"';
+} else if (text2 === '') {
+  output = '"' + text1 + '" does not include ""';
+} else if (text1.toLowerCase().includes(text2.toLowerCase())) {
+  output = '"' + text1 + '" does include "' + text2 + '"';
+} else {
+  output = '"' + text1 + '" does not include "' + text2 + '"';
+}
+
+alert(output);
 /* --- gather user input --- */
 
-let text = prompt(_);
-console.log('text:', text);
+// let text = prompt(_);
+// console.log('text:', text);
 
-let query = prompt(_);
-console.log('query:', query);
+// let query = prompt(_);
+// console.log('query:', query);
 
 /* --- declare initial output --- */
 
-let output = _;
+// let output = _;
 
 /* --- create final output --- */
 
 /* --- alert the result --- */
 
-console.log('output:', output);
-alert(output);
+// console.log('output:', output);
+// alert(output);
 
 console.log('--- end program ---');
 

@@ -29,21 +29,41 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = prompt(_);
-console.log('input:', input);
+debugger;
+
+let input = prompt('enter something with 10 characters');
+
+let output;
+
+console.log(input);
+
+if (input === null) {
+  output = ' You canceled :(';
+} else if (input.length < 10) {
+  let isTenNegative = 10 - input.length;
+  output = 'Nope ' + input + ' is missing ' + isTenNegative + ' characters.';
+} else if (input.length === 10) {
+  output = 'Nice! ' + input + ' is exactly 10 characters';
+} else {
+  let isTenPositive = input.length - 10;
+  output =
+    'Nahhh ' + input + ' is exceeding by ' + isTenPositive + ' characters.';
+}
+
+alert(output);
 
 /* --- declare initial output --- */
 
-let output = _;
+// let output = _;
 
 /* --- create final output --- */
 
 /* --- alert the result --- */
 
-console.log('output:', output);
-alert(output);
+// console.log('output:', output);
+// alert(output);
 
-console.log('--- end program ---');
+// console.log('--- end program ---');
 
 /*
   checklist:
