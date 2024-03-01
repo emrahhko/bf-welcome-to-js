@@ -40,19 +40,37 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = prompt(_);
-console.log('input:', input);
+let input = prompt('enter something with 10 characters');
+console.log(input);
 
+let output;
+
+if (input === null) {
+  output = 'you canceled :( ';
+} else if (input === '') {
+  output = 'not even close';
+} else if (input.length < 5) {
+  output = 'better!';
+} else if (input.length < 8) {
+  output = 'almost there';
+} else if (input.length < 10) {
+  output = 'so close';
+} else if (input.length === 10) {
+  output = 'perfect!';
+} else {
+  output = 'too long';
+}
+
+console.log(output);
+alert(output);
 /* --- declare initial output --- */
-
-let output = _;
 
 /* --- create final output --- */
 
 /* --- alert the result --- */
 
-console.log('output:', output);
-alert(output);
+// console.log('output:', output);
+// alert(output);
 
 console.log('--- end program ---');
 
