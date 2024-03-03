@@ -8,8 +8,6 @@
 
 */
 
-
-
 let userInput = '';
 
 while (userInput === null || userInput === '') {
@@ -18,12 +16,19 @@ while (userInput === null || userInput === '') {
 
 alert(userInput);
 
-
 // begin distractors
 
-while (userInput === null && userInput === '') { // distractor
-while (userInput !== null && userInput !== '') { // distractor
-while (userInput !== null || userInput !== '') { // distractor
+// let userInput = null;
 
+// while (userInput === null && userInput === '') {
+//   userInput = prompt('please do something');
+// }
+//   // distractor
+// while (userInput !== null && userInput !== '') {
+//   userInput = prompt("enter somet");
+//  }
+//   // distractor
+// while (userInput !== null || userInput !== '') {
+//   userInput = prompt("enter"); // distractor
 
 // #todo

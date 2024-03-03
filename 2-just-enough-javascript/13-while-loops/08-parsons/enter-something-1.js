@@ -10,7 +10,7 @@
 */
 
 let input = null;
-while (input === null) {
+while (input === null || input === '') {
   input = prompt('enter something');
 }
 
@@ -18,8 +18,8 @@ alert(input);
 
 // --- distractors ---
 
-WHILE (input === null) { // distractor
-} // distractor
-{ // distractor
-while (input === null) // distractor
-while input === null: // distractor
+// WHILE (input === null) { // distractor
+// } // distractor
+// { // distractor
+// while (input === null) // distractor
+// while input === null: // distractor

@@ -3,9 +3,10 @@
 'use strict';
 
 let word = 'hello';
+let count = 10;
 
 while (word.length < 10) {
-  word + '!';
+  word += '!';
   console.log(word);
 }
 

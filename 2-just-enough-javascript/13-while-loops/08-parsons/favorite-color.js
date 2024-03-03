@@ -1,6 +1,5 @@
 'use strict';
 
-
 let favoriteColor = null;
 while (favoriteColor === null) {
   favoriteColor = prompt('please enter your favorite color');
@@ -8,13 +7,10 @@ while (favoriteColor === null) {
 
 alert('nice.  your favorite color is "' + favoriteColor + '"');
 
-
 /* ---------- */
 
+// while (favoriteColor = null) { // distractor
+// while (favoriteColor !== null) { // distractor
+// let favoriteColor = ''; // distractor
 
-while (favoriteColor = null) { // distractor
-while (favoriteColor !== null) { // distractor
-let favoriteColor = ''; // distractor
-
-
-// #todo
+// // #todo

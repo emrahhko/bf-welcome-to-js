@@ -2,6 +2,8 @@
 
 'use strict';
 
+// debugger;
+
 let excitement = 10;
 
 while (excitement > 10) {
@@ -10,3 +12,4 @@ while (excitement > 10) {
 }
 
 console.log('all done.');
+console.log(excitement);
