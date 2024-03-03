@@ -8,3 +8,11 @@ while (input === '' || input === null) {
 }
 
 alert(input);
+
+let input1 = '';
+
+while (input1 === '' || input1 === null) {
+  input1 = prompt(' again enter something');
+}
+
+alert(input1);

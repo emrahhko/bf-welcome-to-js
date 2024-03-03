@@ -16,7 +16,22 @@
 /* ---   ?   --- */
 
 // input <- ''
+let input = '';
 
+while (true) {
+  input = prompt(
+    "enter something longer than 4 characters, or 'cancel' to leave ",
+  );
+  if (input === null) {
+    input = 'you canceled';
+    break;
+  } else if (input.length > 4) {
+    input = 'nicee';
+    break;
+  }
+}
+
+alert(input);
 // prompting <- true
 
 // WHILE: prompting

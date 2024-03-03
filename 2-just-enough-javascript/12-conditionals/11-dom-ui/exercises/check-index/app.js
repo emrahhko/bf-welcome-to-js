@@ -8,18 +8,25 @@ import {
 whenFormDataChanges('search-input', () => {
   // debugger;
   console.log('--- form data changed ---');
-
+  debugger;
   // --- read the user's input ---
   let text = readString('text');
   let chars = readString('character');
-  let index = readString('i');
+  let index = readNumber('i');
 
   // --- check the index ---
-  let input;
+  let output = '';
 
   if (chars) {
-    if (text[index])
+    if (text[index] === chars) {
+      output = 'yes';
+    } else {
+      output = 'no';
+    }
+  } else {
+    output = 'oops! you entered fewer than one character';
   }
 
   // --- display the search results ---
+  displayString('search-result', output);
 });
