@@ -4,7 +4,7 @@
 
 let input;
 
-while (input !== false) {
+while (input !== true) {
   input = prompt('enter something, not nothing');
   console.log(input);
 }

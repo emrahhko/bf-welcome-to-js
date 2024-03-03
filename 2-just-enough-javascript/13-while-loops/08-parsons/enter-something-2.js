@@ -25,7 +25,17 @@ if (input === '') {
 
 // --- distractors ---
 
+// while input === null { // distractor
+// if (input === '')  // distractor
+// LET input = null;
 
-while input === null { // distractor
-if (input === '')  // distractor
-LET input = null;
+let input1 = null;
+while (input1 === null) {
+  input1 = prompt('enter something else');
+}
+
+if (input1 === '') {
+  alert(':( :( :(');
+} else {
+  alert('niceee your input: ' + input1);
+}
