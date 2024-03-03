@@ -8,3 +8,10 @@ while (input === null) {
 }
 
 alert(input);
+
+let input1 = null;
+while (input1 === null) {
+  input1 = prompt('again do not cancel');
+}
+
+alert(input1);

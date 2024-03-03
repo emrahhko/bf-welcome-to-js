@@ -1,8 +1,8 @@
 // #todo
 
 'use strict';
-
-let word = 'racecar';
+// debugger;
+let word = 'done.';
 // let word = 'bike';
 // let word = 'f';
 // let word = ' i o u ';
@@ -18,3 +18,16 @@ while (word.length !== reversed.length) {
 }
 
 console.log(word, reversed);
+
+let word1 = 'patates';
+
+let reversed1 = '';
+
+let index1 = 0;
+while (word1.length !== reversed1.length) {
+  let nextChar1 = word1[index1];
+  reversed1 = nextChar1 + reversed1;
+  index1 = index1 + 1;
+}
+
+console.log(word1 + '\n' + reversed1);

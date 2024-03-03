@@ -12,7 +12,13 @@
   Test Cases:
 
 */
+let input = '';
 
+while (input !== 'hello') {
+  input = prompt('say hello');
+}
+
+alert('hello to you too!');
 // input <- ''
 
 // WHILE: input !== 'hello'

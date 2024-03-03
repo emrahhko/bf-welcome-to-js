@@ -14,9 +14,20 @@
 */
 
 /* ---  ?  --- */
-
+let firstName = null;
 // firstName <- null
+while (firstName === null) {
+  firstName = prompt('enter a first name');
+}
 
+let lastName = null;
+while (lastName === null) {
+  lastName = prompt('enter a last name');
+}
+
+let fullNAme = 'your name is ' + firstName + ' ' + lastName;
+
+alert(fullNAme);
 // WHILE: firstName === null
 //   firstName <- prompt('enter a first name')
 // :END WHILE

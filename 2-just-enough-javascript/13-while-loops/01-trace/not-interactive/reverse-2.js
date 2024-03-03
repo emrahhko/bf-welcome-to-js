@@ -2,7 +2,7 @@
 
 'use strict';
 
-let word = 'racecar';
+let word = 'bike';
 // let word = 'bike';
 // let word = 'f';
 // let word = ' i o u ';
@@ -18,3 +18,16 @@ while (word.length !== reversed.length) {
 }
 
 console.log(word, reversed);
+
+let word1 = 'trabzonspor';
+
+let reversed1 = '';
+
+let index1 = word1.length - 1;
+while (word1.length !== reversed1.length) {
+  let nexhtChar1 = word1[index1];
+  reversed1 = reversed1 + nexhtChar1;
+  index1 = index1 - 1;
+}
+
+console.log(word1 + '\n' + reversed1);

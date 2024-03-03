@@ -18,6 +18,22 @@ while (!isEary) {
 
 alert(message);
 
+let message1 = '';
+
+let isIney = false;
+while (!isIney) {
+  let input1 = prompt("enter something else that includes 'ine'");
+
+  if (input1 === null) {
+    alert('again there is no escape');
+  } else if (input1.toLowerCase().includes('ine')) {
+    message1 = "'" + input1 + "' includes 'ine'";
+    isIney = true;
+  }
+}
+
+alert(message1);
+
 /*
   - find all the variable declarations
   - mark each variable use with a different color (like in the ?variables lens)

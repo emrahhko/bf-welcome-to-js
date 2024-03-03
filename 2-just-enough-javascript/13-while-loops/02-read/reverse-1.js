@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 let text = null;
 while (text === null || text === '') {
   text = prompt('enter something to reverse');
@@ -17,6 +19,23 @@ while (index < text.length) {
 }
 
 alert(text + ' -> ' + reversed);
+
+let text1 = null;
+
+while (text1 === null || text1 === '') {
+  text1 = prompt('enter something else to reverse');
+}
+
+let reversed1 = '';
+let index1 = 0;
+
+while (index1 < text1.length) {
+  let nextChar1 = text1[index1];
+  reversed1 = nextChar1 + reversed1;
+  index1 = index1 + 1;
+}
+
+alert(text1 + ' => ' + reversed1);
 
 /*
   - find all the variable declarations
