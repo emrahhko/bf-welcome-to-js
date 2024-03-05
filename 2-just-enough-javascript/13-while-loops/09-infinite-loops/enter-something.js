@@ -2,10 +2,12 @@
 
 'use strict';
 
+debugger;
+
 let input;
 
 while (input !== true) {
-  input = prompt('enter something, not nothing');
+  input = confirm('enter something, not nothing');
   console.log(input);
 }
 

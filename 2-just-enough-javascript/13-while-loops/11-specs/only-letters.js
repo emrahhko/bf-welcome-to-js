@@ -23,11 +23,24 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
+let input = '';
+
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  input = prompt('enter only letters');
+
+  if (input === null) {
+    input = alert('no escape please enter something');
+  } else if (input === '') {
+    input = alert('nope no empty enter')
+  } else if (/^[a-zA-Z]+$/.test(input)) {
+    output = input;
+    break;
+  }
+}
 
 /* --- alert the result --- */
 

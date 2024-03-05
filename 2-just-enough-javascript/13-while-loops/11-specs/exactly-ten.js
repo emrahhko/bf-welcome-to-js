@@ -19,19 +19,35 @@
 
 */
 
+debugger;
+
 console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
-
+let output = '';
+let input = '';
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  input = prompt('Please enter something with 10 characters');
+  
+  if (input === null) {
+    alert('There is no escape, please enter something with 10 characters.');
+  } else if (input.length > 10) {
+    alert('Nope, ' + input + ' is exceeding by ' + (input.length - 10) + ' characters.');
+  } else if (input.length < 10) {
+    alert('Nope, ' + input + ' is missing by ' + (10 - input.length) + ' characters.');
+  } else {
+    output = 'Nice, ' + input + ' is exactly 10 characters.';
+    break;
+  }
+}
+
 
 /* --- alert the result --- */
 
-console.log('output:', output);
+console.log(output);
 alert(output);
 
 console.log('--- end program ---');

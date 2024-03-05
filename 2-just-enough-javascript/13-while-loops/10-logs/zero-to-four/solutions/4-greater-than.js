@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
+
+debugger;
 
 let step = 4;
-while (__ > __) {
-  console.log(__ - __);
-  __;
+while (step > -1) {
+  console.log(4 - step);
+  step = step -1;
 }
