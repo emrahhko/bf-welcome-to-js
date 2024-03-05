@@ -1,7 +1,7 @@
 // #todo
 
 'use strict';
-
+debugger;
 /*
   a user can add single characters to a string until they confirm they have finished
     - given they cancel, they see a helpful message and are prompted again
@@ -20,11 +20,30 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
+let input = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  input = prompt('Write whatever you want one letter at a time!');
+  
+  if (input === null) {
+    input = alert('nope no escape');
+  } else if (input === '') {
+    input = alert('nope no empty character allowed');
+  } else if (input.length > 1 ) {
+    input = alert('nope one letter at a time')
+  } else {
+    output = output + input;
+    let isEnough = confirm('click "OK" to add a new letter \n or "Cancel" if you finished the word')
+    if (isEnough === true) {
+      continue;
+    } else {
+      break;
+    }
+  }
+} 
 
 /* --- alert the result --- */
 

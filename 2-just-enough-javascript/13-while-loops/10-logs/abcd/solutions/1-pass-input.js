@@ -1,7 +1,13 @@
-'use strict';
+"use strict";
 
-let input = '';
-while (input !== null) {
-  input = prompt('a, b, c, d');
+debugger;
+
+let input = "";
+let count = 0;
+while (count < 4) {
+  input = prompt("a, b, c, d");
   console.log(input);
+  count = count +1;
+  
+  
 }

@@ -2,11 +2,11 @@
 
 'use strict';
 
-// debugger;
+ debugger;
 
 let excitement = 10;
 
-while (excitement > 10) {
+while (excitement <= 10) {
   excitement = excitement + 1;
   console.log(excitement);
 }

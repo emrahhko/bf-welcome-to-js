@@ -1,6 +1,13 @@
-'use strict';
+"use strict";
 
-let letters = 'abcd';
+debugger;
+
+let letters = "abcd";
+let input= '';
 
 let index = 0;
-while (__ < __.__) {}
+while (index < letters.length) {
+  input = letters[index];
+  console.log(input);
+  index = index +1;
+}

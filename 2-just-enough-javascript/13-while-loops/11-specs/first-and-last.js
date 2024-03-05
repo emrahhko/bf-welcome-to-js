@@ -30,15 +30,35 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
+let input = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  input = prompt('please enter something beginning with a capital letter and ending with a period!');
+
+  if (input === null) {
+    alert('no escape! please enter something beginning with a capital letter and ending with a period! ');
+  } else if (input.length <= 2 ) {
+    alert('too short! please enter something beginning with a capital letter and ending with a period!');
+  } else if (input[0] !== input[0].toUpperCase()) {
+    alert('the first letter should be capital! ');
+  } else if (input[input.length -1] !== '.') {
+    alert('nope it must finish with a period "." ');
+  } else {
+    input = input[0].toLowerCase() + input.slice(1);
+    input = input.slice(0, -1);
+    output = input;
+    break;
+  }
+}
 
 /* --- alert the result --- */
 
-console.log('output:', output);
+
+console.log(output); 
+
 alert(output);
 
 console.log('--- end program ---');
